@@ -24,10 +24,10 @@ This file was used in both the *Rydberg FM* paper and the *Plasmon* paper.
 
 This notebook includes an example with the following settings:
 
-- $V_\mathrm{ib} = 10\,\mathrm{V}$
-- $V_\mathrm{ob} = -32\,\mathrm{V}$
-- $V_\mathrm{mb}$ is swept from $-32\,\mathrm{V}$ to $10\,\mathrm{V}$, while keeping the total number of electrons fixed  
-  (determined from the saturation condition at $V_\mathrm{ib} = 10\,\mathrm{V}$ and $V_\mathrm{mb} = V_\mathrm{ob} = -32\,\mathrm{V}$).
+- $V_\mathrm{ib} = 10$ V
+- $V_\mathrm{ob} = -32$ V
+- $V_\mathrm{mb}$ is swept from $-32$ V to $10$ V, while keeping the total number of electrons fixed  
+  (determined from the saturation condition at $V_\mathrm{ib} = 10$ V and $V_\mathrm{mb} = V_\mathrm{ob} = -32$ V).
 
 The DC potential created by the applied electrode voltages, $\tilde{\phi}$, is stored as:
 
@@ -36,7 +36,7 @@ VmbSweep/Vib10V_Vobm32V/Phi_R0pt75_H0pt2_N500_M200_posiE100_epsE-10.0_Vmb_step=0
 ```
 
 The density profile obtained for each value of $V_\mathrm{mb}$ is plotted as shown below  
-(**red** corresponds to $V_\mathrm{mb} = 9.8\,\mathrm{V}$ and **blue** to $V_\mathrm{mb} = -32\,\mathrm{V}$):
+(**red** corresponds to $V_\mathrm{mb} = 9.8$ V and **blue** to $V_\mathrm{mb} = -32$ V):
 
 <img width="636" height="472" alt="Density Profile Plot" src="https://github.com/user-attachments/assets/efa95119-4b55-47aa-bd62-f3bbe9a1d4cd" />
 
