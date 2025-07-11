@@ -20,6 +20,7 @@ This file was used in both the *Rydberg FM* paper and the *Plasmon* paper.
 ## Step 2: Calculate Density Profiles for Voltage Sweeps
 
 - Use **`Calculate_Density_Profile.ipynb`** to compute electron density profiles for your desired voltage configurations.
+- Use **`Calculate_Density_Profile_cupy.ipynb`** if you have a GPU.
 
 This notebook includes an example with the following settings:
 
