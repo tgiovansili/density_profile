@@ -46,11 +46,18 @@ The data is stored in:
 VmbSweep/Vib10V_Vobm32V/fixed_electron_number_density/
 ```
 
-
-
 ---
 
 ## Step 3: Use the Results
 
 - Use the computed density profiles to calculate the electric field experienced by the electron in the *Rydberg detection simulation*,  
   or to calculate the plasmon impedance for the *plasmon simulation*.
+
+---
+
+  ⚠️ Due to the large file size, the generated folders `GreenFunction/` and `VmbSweep/` could not be uploaded to GitHub.
+
+Please refer to the following Google Drive link to access the data:
+
+🔗 [Google Drive – GreenFunction and VmbSweep Data](https://drive.google.com/drive/folders/1lC1xuzMQvBS7sev4N5r9cZi6F-KcE2N-?usp=sharing)
+
