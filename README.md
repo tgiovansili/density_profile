@@ -35,13 +35,18 @@ The DC potential created by the applied electrode voltages, $\tilde{\phi}$, is s
 VmbSweep/Vib10V_Vobm32V/Phi_R0pt75_H0pt2_N500_M200_posiE100_epsE-10.0_Vmb_step=0pt2_Vmb_start=-32_Vmb_stop=10.npy
 ```
 
-The density profile obtained for each value of $V_\mathrm{mb}$ is plotted as shown below and stored in:
+The density profile obtained for each value of $V_\mathrm{mb}$ is plotted as shown below  
+(**red** corresponds to $V_\mathrm{mb} = 9.8\,\mathrm{V}$ and **blue** to $V_\mathrm{mb} = -32\,\mathrm{V}$):
+
+<img width="636" height="472" alt="Density Profile Plot" src="https://github.com/user-attachments/assets/efa95119-4b55-47aa-bd62-f3bbe9a1d4cd" />
+
+The data is stored in:
 
 ```
 VmbSweep/Vib10V_Vobm32V/fixed_electron_number_density/
 ```
 
-<img width="636" height="472" alt="Density Profile Plot" src="https://github.com/user-attachments/assets/efa95119-4b55-47aa-bd62-f3bbe9a1d4cd" />
+
 
 ---
 
