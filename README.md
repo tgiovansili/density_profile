@@ -2,7 +2,7 @@
 
 ## Step 1: Generate Green's Functions
 
-- Use **`Create_Green_Function_njit.ipynb`** if you **do not have a GPU**.
+- Use **`Create_Green_Function_njit.ipynb`.
 > ⚠️ **Note:** The use of `@njit` (from Numba) is essential for speeding up core numerical loops. It compiles Python functions into fast machine code, enabling efficient computation.
 
 The Green's function computed with a threshold error of $10^{-10}$ is stored as:
