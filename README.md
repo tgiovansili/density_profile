@@ -3,8 +3,6 @@
 ## Step 1: Generate Green's Functions
 
 - Use **`Create_Green_Function_njit.ipynb`** if you **do not have a GPU**.
-- Use **`Create_Green_Function_njit_cupy.ipynb`** if you **have a GPU**.
-
 > ⚠️ **Note:** The use of `@njit` (from Numba) is essential for speeding up core numerical loops. It compiles Python functions into fast machine code, enabling efficient computation.
 
 The Green's function computed with a threshold error of $10^{-10}$ is stored as:
@@ -21,7 +19,14 @@ This file was used in both the *Rydberg FM* paper and the *Plasmon* paper.
 
 - Use **`Calculate_Density_Profile.ipynb`** to compute electron density profiles for your desired voltage configurations.
 - Use **`Calculate_Density_Profile_cupy.ipynb`** if you have a GPU.
+> ⚠️ **Note:** Please note that there may be more effective ways to optimize the program using `njit` or `cupy` more appropriately than what we implemented above.  
+It is important **not to use** `njit` and `cupy` together.  
+`njit` compiles functions to run on the CPU, while `cupy` manages data on the GPU.  
+Using only `cupy` may result in longer execution times, depending on the situation.  
+(Here is a link where this issue is discussed: [https://github.com/numba/numba/issues/8784](https://github.com/numba/numba/issues/8784))
 
+
+> 
 This notebook includes an example with the following settings:
 
 - $V_\mathrm{ib} = 10$ V
